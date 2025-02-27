@@ -1694,6 +1694,17 @@ header {
   outline: none;
 }
 
+.book-wrap .contact-form-style label{
+  display: block;
+  margin-bottom: 2rem;
+}
+.book-wrap .contact-form-style input[type="checkbox"]{
+  width: auto;
+  height: auto;
+  margin: 0;
+  accent-color: #3a9c50;
+}
+
 .book-wrap .contact-form-style textarea {
   background-color: transparent;
   color: #fff;

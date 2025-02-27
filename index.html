@@ -665,13 +665,17 @@
                                     <span class="title-end">.</span></h2>
                                 <p class="dugem-text"> Have questions or ready to dance with us? Send us a message! We’d love to hear from you and help you find the perfect class. Let’s get moving together! 💃🕺</p>
                             </div>
-                            <div class="contact-form-style col-span-6 sm:col-span-12 res:col-span-12">
-                                <input type="text" name="your-name" size="40" placeholder="Name">
+                            <form class="contact-form-style col-span-6 sm:col-span-12 res:col-span-12" netlify>
+                                <input type="text" name="your-name" size="40" placeholder="Name" required>
                                 <input type="text" name="your-name" size="40" placeholder="Email">
-                                <textarea name="your-message" cols="40" rows="10" placeholder="Text"></textarea>
-                                <input type="submit" value="Send" class="button-basic-1">
-
-                            </div>
+                                <input type="text" name="your-name" size="40" placeholder="Phone">
+                                <textarea name="your-message" cols="40" rows="10" placeholder="Text" required></textarea>
+                                <label>
+                                    <input type="checkbox" name="consent" required checked>
+                                    I consent to be contacted at the provided email or phone number.
+                                </label>
+                                <button type="submit" class="button-basic-1">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
