@@ -1332,7 +1332,8 @@ header {
   margin-bottom: 20px;
 }
 
-.blog-slide .swiper-pagination {
+.blog-slide .swiper-pagination,
+.testimonial-slide .swiper-pagination {
   position: relative;
   padding-top: 25px;
 }
@@ -1407,7 +1408,8 @@ header {
   opacity: 1;
 }
 
-.blog-loop .blog-slide .swiper-pagination-bullet {
+.blog-loop .blog-slide .swiper-pagination-bullet,
+.testimonial-slide .swiper-pagination-bullet {
   width: 60px;
   height: 6px;
   margin-right: 20px;
@@ -1420,12 +1422,14 @@ header {
   opacity: 1;
 }
 
-.blog-loop .blog-slide .swiper-pagination-bullet:hover {
+.blog-loop .blog-slide .swiper-pagination-bullet:hover,
+.testimonial-slide .swiper-pagination-bullet:hover {
   background: #3a9c50;
   opacity: 1;
 }
 
-.blog-loop .blog-slide .swiper-pagination-bullet-active {
+.blog-loop .blog-slide .swiper-pagination-bullet-active,
+.testimonial-slide .swiper-pagination-bullet-active {
   background: #3a9c50;
   opacity: 1;
 }
@@ -1516,11 +1520,11 @@ header {
   bottom: 0;
   justify-content: center;
 }
-
+/* 
 .testimonial-slide {
   position: relative;
   padding-top: 50px;
-}
+} */
 
 .testimonial-text p {
   color: #ffffff;
