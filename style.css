@@ -1773,6 +1773,10 @@ header {
   padding-right: 40px;
 }
 
+.faq-list details summary::-webkit-details-marker {
+  display: none !important;
+}
+
 .faq-list details summary::before{
   position: absolute;
   right: 0;
