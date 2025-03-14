@@ -917,7 +917,9 @@ header {
   object-fit: cover;
 }
 
-.main-video video::-webkit-media-controls {
+.main-video video::-webkit-media-controls, 
+.main-video video::-webkit-media-controls-enclosure, 
+.main-video video::-webkit-media-controls-panel {
   display: none !important;
 }
 
