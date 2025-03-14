@@ -542,8 +542,9 @@ header {
 .main-nav {
   vertical-align: middle;
   float: left;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 0;
+  padding: 20px;
 }
 
 .header-content-left {
@@ -613,13 +614,16 @@ header {
   background: #000000;
 }
 
+.header-expanded .main-menu-btn {
+  color: white;
+}
+
 .header-style-1 ul.sm-clean>li+li {
   margin-left: 30px;
 }
 
 .header-style-1 ul.sm-clean>li {
-  padding-top: 10px;
-  padding-bottom: 0px;
+  padding: 0px;
   position: relative;
 }
 
@@ -910,6 +914,11 @@ header {
 
 .main-video video {
   width: 100%;
+  object-fit: cover;
+}
+
+.main-video video::-webkit-media-controls {
+  display: none !important;
 }
 
 .image-background {
@@ -944,7 +953,7 @@ header {
   margin-left: 20px;
   padding: 20px;
   width: 50%;
-  background: #3a9c5075;
+  background: rgba(0,0,0,0.5);
   border: 1px solid #194222;
 }
 
@@ -956,13 +965,6 @@ header {
   color: white;
   margin-bottom: 0;
   line-height: 1.5;
-}
-
-.image-title a.button-basic-1 {
-  color: white;
-  margin-top: 20px;
-  font-size: 1.3rem;
-  padding: 12px 30px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1108,7 +1110,7 @@ header {
 /*  3d.  TABLE EVENTS SECTION
 /*-----------------------------------------------------------------------------------*/
 .table-events {
-  background-image: url(img/event2.png);
+  /* background-image: url(img/event2.jpg); */
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -1475,7 +1477,8 @@ header {
   height: 53px;
   top: -1px;
   z-index: 2;
-  border-top: 175px solid #0b0b0b;
+  /* border-top: 175px solid #0b0b0b; */
+  border-top: 175px solid black;
   border-right: 2500px solid transparent;
 }
 
@@ -1498,7 +1501,8 @@ header {
 }
 
 .testimonial-background {
-  background-image: url(img/testimonial-cover.png);
+  /* background-image: url(img/testimonial-cover.png); */
+  background-color: rgba(0,0,0,1);
   background-size: cover;
   position: absolute;
   right: 0;

@@ -150,6 +150,10 @@
     font-size: 20px;
   }
 
+.main-nav{
+  background-color: transparent;
+}
+
 .header-expanded .main-nav{
   padding-top: 15px;
 }
@@ -311,15 +315,19 @@
 
   .main-menu-btn {
     position: absolute;
-    top: -40px;
+    top: -50px;
     right: 0;
+    margin: 0;
+    font-size: 26px;
+    right: 15px;
+    color: black;
   }
 
-  .main-menu-btn-icon,
+  /* .main-menu-btn-icon,
   .main-menu-btn-icon:before,
   .main-menu-btn-icon:after {
     background-color: #fff;
-  }
+  } */
 
   .header-content-right {
     position: absolute;
@@ -446,6 +454,10 @@
     display: none;
   }
 
+  .testimonial-text p {
+    font-size: 16px;
+  }
+
   .book-wrap {
     display: block;
   }
@@ -548,6 +560,9 @@
     width: 10%;
     transform: translate(-5px, 86px);
     overflow: hidden;
+}
+.testimonial-block {
+  padding-bottom: 190px;
 }
 .testimonial-block .swiper-button-prev {
     position: absolute;

@@ -10,11 +10,11 @@
 
 @media (min-width: 768px) {
   .main-nav{
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    border-radius: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
   }
 }
 
@@ -64,7 +64,7 @@
   display: inline-block;
   width: 29px;
   height: 29px;
-  text-indent: 29px;
+  /* text-indent: 29px; */
   white-space: nowrap;
   overflow: hidden;
   cursor: pointer;
@@ -74,7 +74,7 @@
 
 /* hamburger icon */
 
-.main-menu-btn-icon,
+/* .main-menu-btn-icon,
 .main-menu-btn-icon:before,
 .main-menu-btn-icon:after {
   position: absolute;
@@ -99,9 +99,6 @@
   left: 0;
 }
 
-
-/* x icon */
-
 #main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
   height: 0;
   background: transparent;
@@ -119,6 +116,7 @@
   transform: rotate(45deg);
 }
 
+*/
 
 /* hide menu state checkbox (keep it visible to screen readers) */
 
