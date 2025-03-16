@@ -387,6 +387,10 @@ figure {
   text-align: center;
 }
 
+span.button-basic-1{
+  cursor: default;
+}
+
 .button-basic-1 {
   font-weight: 500;
   text-transform: uppercase;
@@ -3071,4 +3075,35 @@ h2.post-title.entry-title a:hover {
   border-radius: 10px; /* Optional: adds rounded corners */
   display: block;
   margin: 0 auto;
+}
+
+
+.event-list p{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 80vw;
+  max-width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
