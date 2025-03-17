@@ -3107,3 +3107,102 @@ h2.post-title.entry-title a:hover {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+
+
+/* CTA Banner Styling */
+.cta-banner {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  background: linear-gradient(90deg, black, black);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* CTA Text */
+.cta-text {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.cta-text strong{
+  color: #3a9c50;
+}
+
+/* CTA Actions (Button + Close) */
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Sign Up Button */
+.cta-button {
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background: #3a9c50;
+  color: white;
+}
+
+/* Close Button */
+.cta-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  line-height: 1;
+}
+
+.cta-close:hover {
+  opacity: 0.7;
+}
+
+/* Add spacing so content isn't hidden under banner */
+.cta-spacing {
+  margin-top: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .cta-spacing {
+    margin-top: 140px;
+  }
+  
+  .cta-actions {
+    margin-top: 10px;
+  }
+}

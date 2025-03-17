@@ -304,6 +304,9 @@
     padding-bottom: 20px !important;
   }
 
+  .header-style-1{
+    padding: 0;
+  }
   .header-style-1 ul.sm-clean>li {
     padding-bottom: 10px;
   }
