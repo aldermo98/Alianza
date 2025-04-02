@@ -1691,6 +1691,13 @@ header {
   border-left: 2000px solid transparent;
 }
 
+.book-table .address-link:not(:hover){
+  color: white;
+}
+.book-table .the-title iframe{
+  max-width: 100%;
+}
+
 .book-wrap .contact-form-style input {
   background-color: transparent;
   color: #fff;
