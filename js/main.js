@@ -11,6 +11,20 @@
             duration: 3000,
         });
 
+        window.addEventListener("scroll", () => {
+            const btn = document.getElementById('scrollToTopButton');
+            if (btn) {
+                btn.style.display = (document.documentElement.scrollTop > 200) ? 'block' : 'none';
+            }
+        });       
+
+        const scrollToTopButton = document.createElement('button');
+        scrollToTopButton.id = 'scrollToTopButton';
+        scrollToTopButton.className = 'scroll-to-top-btn';
+        scrollToTopButton.style.display = 'none';
+        scrollToTopButton.textContent = '↑';
+        scrollToTopButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.body.appendChild(scrollToTopButton);
 
         // Smartmenus
         $(function() {
