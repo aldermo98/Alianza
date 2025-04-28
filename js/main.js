@@ -7,9 +7,7 @@
             $("#header").toggleClass("header-expanded");
         });
 
-        AOS.init({
-            duration: 3000,
-        });
+        AOS.init();
 
         window.addEventListener("scroll", () => {
             const btn = document.getElementById('scrollToTopButton');
