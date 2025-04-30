@@ -11557,12 +11557,12 @@ body.loaded .in-top {
   }
 } */
 /* Disable cursor on touch screens */
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #cursor {
     display: none !important;
   }
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   html, body {
     cursor: none !important;
   }
