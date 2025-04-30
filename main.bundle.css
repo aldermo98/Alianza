@@ -11551,13 +11551,13 @@ body.loaded .in-top {
 }
 
 /* Disable cursor on touch screens */
-@media (hover: none) and (pointer: coarse) {
+/* @media (hover: none) and (pointer: coarse) {
   #cursor {
     display: none !important;
   }
-}
+} */
 /* Disable cursor on touch screens */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   #cursor {
     display: none !important;
   }
@@ -11569,7 +11569,7 @@ body.loaded .in-top {
   html *, html a, body *, body a {
     cursor: none !important;
   }
-}
+} */
 header {
   transition: all 0.3s;
   z-index: 1050;
