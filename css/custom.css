@@ -4,7 +4,7 @@ body {
     background: transparent;
 }
 
-a:not(.nav-link):not(.btn) {
+a:not(.nav-link):not(.btn):not(.to-top) {
     color: currentColor;
     text-decoration: underline;
 }
