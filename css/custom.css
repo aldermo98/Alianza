@@ -3,3 +3,8 @@
 body {
     background: transparent;
 }
+
+a:not(.nav-link):not(.btn) {
+    color: currentColor;
+    text-decoration: underline;
+}
