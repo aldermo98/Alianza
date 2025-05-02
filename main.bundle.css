@@ -11553,25 +11553,25 @@ body.loaded .in-top {
 }
 
 /* Disable cursor on touch screens */
-@media (hover: none) and (pointer: coarse) {
+/* @media (hover: none) and (pointer: coarse) {
   #cursor {
     display: none !important;
   }
-}
+} */
 /* Disable cursor on touch screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #cursor {
     display: none !important;
   }
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   html, body {
     cursor: none !important;
   }
   html *, html a, body *, body a {
     cursor: none !important;
   }
-}
+} */
 header {
   transition: all 0.3s;
   z-index: 1050;
