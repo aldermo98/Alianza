@@ -12096,7 +12096,7 @@ body.dark-slide header .navbar .navbar-brand img.inverted {
   transition: all 1s 4.05s;
 }
 .glide:not(.carousel) .glide__slide--active .bg {
-  animation: scale 20s 1s infinite both;
+  /* animation: scale 20s 1s infinite both; */
 }
 .glide:not(.carousel) .glide__slide--animate h1, .glide:not(.carousel) .glide__slide--animate h2, .glide:not(.carousel) .glide__slide--animate h3, .glide:not(.carousel) .glide__slide--animate h4, .glide:not(.carousel) .glide__slide--animate h5, .glide:not(.carousel) .glide__slide--animate h6, .glide:not(.carousel) .glide__slide--animate p, .glide:not(.carousel) .glide__slide--animate img {
   opacity: 1 !important;

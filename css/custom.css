@@ -8,3 +8,23 @@ a:not(.nav-link):not(.btn):not(.to-top) {
     color: currentColor;
     text-decoration: underline;
 }
+
+.hero__video{
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 992px) {
+    .hero__video{
+        object-position: right;
+    }
+}
+
+@media (max-width: 568px) {
+    .hero__video{
+        width: unset;
+        position: absolute;
+        right: -150px;
+    }
+}
