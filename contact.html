@@ -47,21 +47,21 @@
     <main>
       <section class="jumbotron jumbotron-fluid pb-0 bg-dark">
         <div class="bg o-5" style="background-image:url(images/contact.jpg);"></div>
-        <div class="container text-white py-5">
+        <div class="container py-5">
           <div class="row">
             <div class="col-lg-8 offset-lg-2"> 
-              <h1 class="massive in-left"><span id="typed"></span><span id="typed-strings"><span>Contact</span><span>접촉</span><span>Kāhea</span><span>Kontakt</span></span></h1>
+              <h1 class="massive in-left text-white"><span id="typed"></span><span id="typed-strings"><span>Contact</span><span>접촉</span><span>Kāhea</span><span>Kontakt</span></span></h1>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col-lg-8 offset-lg-2">
-              <p class="in-top"> Have questions or ready to dance with us? Send us a message! We’d love to hear from you and help you find the perfect class. Let’s get moving together! 💃🕺</p>
+              <p class="in-top text-white"> Have questions or ready to dance with us? Send us a message! We’d love to hear from you and help you find the perfect class. Let’s get moving together! 💃🕺</p>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
-              <h2 class="mt-5">Book or Send us a message</h2>
-              <form name="contact" class="mt-4 mb-n10" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <h2 class="mt-5 text-white">Book or Send us a message</h2>
+              <form name="contact" class="mt-4 mb-n10 text-white" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact">
               
                 <p hidden>
@@ -69,18 +69,21 @@
                 </p>
 
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="John Doe">
+                  <input class="form-control" id="name" type="text" placeholder="Full Name" required>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="phone" placeholder="Phone Number">
+                  <input class="form-control" id="phone" type="phone" placeholder="Phone Number" required>
                 </div>
                 <div class="form-group">
                   <input class="form-control" id="email" type="email" placeholder="Email">
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" id="message" rows="8" placeholder="Message"></textarea>
+                  <input class="form-control" id="reference" type="text" placeholder="How did you hear about us?" required>
                 </div>
-                <button class="btn" type="submit">Send</button>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" rows="8" placeholder="Message" required></textarea>
+                </div>
+                <button class="btn" type="submit" style="border: 1px solid black !important; background: #3a9c50;">Send</button>
               </form>
             </div>
           </div>
