@@ -1,0 +1,6 @@
+# Redirect www to non-www
+https://www.alianzadancecompany.com/* https://alianzadancecompany.com/:splat 301!
+
+# Redirect HTTP to HTTPS (Netlify does this automatically, but include if needed)
+http://alianzadancecompany.com/* https://alianzadancecompany.com/:splat 301!
+http://www.alianzadancecompany.com/* https://alianzadancecompany.com/:splat 301!
